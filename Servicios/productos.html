@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> <!--indica la codificacion utf8-->
+<meta name="viewport" content="width=device-width,initial-scale-1">
+<title>Catalogo de venta</title>
+<style type="text/css">
+
+
+header{background-color: white;
+color: black;
+text-align:left;
+width:100%;
+height:80px;
+margin:auto;
+font-size:30px;
+border:0;
+border-radius:10px;
+display: flex;
+justify-content:center;
+align-content:center;
+} /*el tirulo de la pagina*/
+
+header img{width:60px;
+height:60px;
+float:left;
+border:0;
+border-radius:20%;
+margin:5px;}/*logo de la empresa*/
+
+
+nav{background-color:white;
+margin:20px;
+margin-left:0px;
+width:380px;
+height:50px;
+border:0;
+border-radius:10px;
+}/*menu para poder visitar las demas paginas*/
+ 
+
+.grid-conteiner{margin:7px;
+display:grid;
+grid-template-columns:repeat(2,1fr);
+grid-template-rows:repeat(3,360px);
+gap:20px;
+}/*el contenedor donde estan los productos*/
+
+body{background-color: #e4ac9f;}/*la pagina en general*/
+
+.item{
+background-color:white;
+color:black;
+text-align:center;
+padding:5px;
+font-size:15px;
+border-radius: 10px;
+}/*las caracteristicas del contenedor*/
+
+.item img{
+width:120px;
+height:80;
+margin:20px;
+} /*la imagenes que tiene el contenedor*/
+
+nav li{display:inline-block;
+margin-left:0;}/*el despliegue del menu*/
+
+
+nav a{color:black;
+font-size:15px;
+margin:0;
+}/*los links para el resto de paginas*/
+
+nav a img{margin-left:10px;}/*las imagenes que tiene el menu*/
+
+nav a:hover{background-color: white;
+border-radius:10px;}/*Animacion al pasar el mause
+o el dedo*/
+
+</style>
+
+</head>
+
+<Body>
+
+<header>
+Productos disponibles
+</header>
+
+<nav>
+    <ul>
+        <li><a href="../index2.html" style="text-decoration:none;">
+            <img src="../img/hogar.png">Menu</a></li>
+
+        <li><a href="conocenos.html"style="text-decoration:none;">
+        <img src="../img/tienda.png">Conocenos
+        </a></li>
+        
+        <li><a href="contactos.html"style="text-decoration:none;">
+        <img src="../img/llamada.png">Contacto
+        </a></li>
+        
+        
+</nav>
+
+<div class="grid-conteiner">
+
+
+
+<div class="item"><p><h2>$1,920 MX</h2></p><img src="../img/ram.png"><p><h4>Memoria Ram hyperX Fury</h4>
+<p>DDR4</p>2666Mhz</p></p>8GBx4</p></div>
+
+<div class="item"><p><h2>$1,420 MX</h2></p><img src="../img/ssd m.2.png"> <p><h4>Samsung M.2 EVO PLUS</h4><p>SSD M.2</p>500GB</p></div>
+
+<div class="item"><p><h2>$1,655</h2></p><img src="../img/camara.jpg"><p><h4>Camara vigilancia</h4></p> <p>17 Megapixeles</p></div>
+
+<div class="item"><p><h2>$3,699</h2></p><img src="../img/madre.png"><p><h4>Motherboard Gaming</h4></p></div>
+
+<div class="item"><p><h2>$580</h2></p><img src="../img/bank.jpg"><p>•Power Bank</p> <p>•50000mAh</p>•carga rapida</div>
+
+<div class="item"><p><h2>$70</h2></p><img src="../img/cable.png"><p>•Cable de carga <p>•30w</p> •1Metro</p></div> 
+
+
+</div>
+
+</Body>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> <!--indica la codificacion utf8-->
+<meta name="viewport" content="width=device-width,initial-scale-1">
+<title>Conocenos</title>
+<style type="text/css">
+
+header{background-color: white;
+color:black;
+text-align:left;
+width:100%;
+height:80px;
+margin:auto;
+font-size:40px;
+border-radius:10px 10px 0px 0px;
+display: flex;
+justify-content:center;
+align-content:center;
+}/*donde esta el logo y el nombre de la pagina*/
+
+header img{width:60px;
+height:60px;
+float:left;
+border:0;
+border-radius:20%;
+margin:5px;}/*logo de la empresa*/
+
+
+nav{background-color: #e4ac9f;
+margin:20px;
+margin-left:2px;
+width:100%;
+height:50px;
+border:0;
+margin: auto;
+}/*menu*/
+
+.grid-conteiner{margin:0px;
+margin-left:0;
+display:grid;
+grid-template-columns:repeat(1,1fr);
+grid-template-rows:repeat(4,400px);
+gap:20px;
+}/*el contenedor de los productos*/
+
+body{background-color: #e4ac9f;}/*Color de la pagina*/
+
+.item{
+background-color: white;
+width:100%;
+color:black;
+text-align:center;
+padding:0px;
+font-size:12px;
+border-radius: 0px 0px 10px 10px;
+}/*la informacion de nuestra empresa*/
+
+.item img{
+width:auto;
+height:50%;
+margin:20px;
+}/*las imagenes de la empresa*/
+
+nav li{display:inline-block;}/*la alineacion de los links*/
+
+
+nav a{color:black;
+    font-size:15px;
+    margin:0px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;}/*los links de las demas paginas */
+
+nav a img{margin-left:40px;}/*laa imagenes de los links*/
+
+nav a:hover{background-color: white;
+border-radius:30px;}/*la animacion de los links al pasar el mouse*/
+
+
+</style>
+</head>
+<Body>
+
+<header>
+Conocenos 
+</header>
+
+<nav>
+<li><a href="../index2.html" style="text-decoration:none;" >
+    <img src="../img/hogar.png">Menu</a></li>
+
+    <li><a href="productos.html"style="text-decoration:none;">
+        <img src="../img/carrito.png">Productos
+        </a></li>
+
+<li><a href="contactos.html"style="text-decoration:none;">
+    <img src="../img/llamada.png">Contacto
+    </a></li>
+
+</nav>
+
+<div class="grid-conteiner">
+
+<div class="item"><p><h3>Nuestra Historia</h3></p><img src="../img/1.jpg">
+    <p>Somos una Micro empresa basada en las necesidades tecnologicas que
+    las personas necesitan, esta idea se puso en practica por el año 
+    2016.</p></div>
+
+<div class="item"><p><h3>Nuestras Especialisaciones</h3></p><img src="../img/2.jpg">
+    <p>Nosotros nos basamos mucho en arreglar productos electronicos como pc,
+    laptos, y empresoras tambien vendemos piezas para pc,camaras de seguridad.</p></div>
+
+<div class="item"><p><h3>Nuestra ubicación</h3></p><img src="../img/3.jpg">
+    <p>666 C.Moreloshttps://maps.app.goo.gl/DnssKge3mBb6MJCM6"></div>
+
+<div class="item"><p><h3>Que hacemos en el día a día</h3></p><img src="../img/4.jpg">
+    <p>hacemos imventarios para saver que productos hemos vendido y así poder aumentar la caja , tambien ofresemos muchas ideas elaboradas hacia el cliente para poder ayudar lo maximo posible.</p></div>
+
+<div class="item"><p>Programadores de la pagina</p>
+    Andres Ortega Hernandez, Brayan Alexis Godinez Candelero 
+    <p>Jose Alfredo Jimenez Morales, Diego Alonzo Márquez Cámero </p>
+     Jose Alberto López Córdova<p>El equipo </p>
+</div>
+
+</div>   
+
+</Body>
+</html>

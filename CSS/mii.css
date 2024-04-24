@@ -1,0 +1,82 @@
+html{ 
+    padding:0px;
+    margin:0px;
+    width:100%;
+    }
+    
+    body{
+    font-family:'Segue UI', Tahoma, sans-serif;
+    font-size:81.25%;
+    background:url();
+    }/*Cuerpo de la pagina*/
+    
+    
+     .content{
+     height:100%;
+     background-color: #e4ac9f;
+     border:0px;
+     margin: 0;
+     }/*Contenedor del menu*/
+
+     header{
+     height:210px;
+     background-color:whitesmoke;
+     color:black;
+     text-align:left;
+     font-family:"Roboto Mono",monospace;
+     }/*Contenedor del eslogan, titulo e imagen de la empresa*/
+    
+     header img{
+     width:140px;
+     height:100px;
+     float:left;
+     border:0;
+     border-radius:20px;
+     margin:10px;}/*Logo de la empresa*/
+    
+     h2{color:black;
+     font-size:15px;
+     float:unline-end;}/*Eslogan*/
+     
+    h1{color:black;
+        font-size:60px;
+     margin:auto;
+    text-align:left;}/*Titulo de la empresa*/
+     
+     
+     
+     section article img{
+     width:100%;
+     }
+     
+     .menu{
+    
+    
+     display: inline-block;
+     width:330px;
+     height:70px;
+    }/*Menú principal*/
+     
+     .menu li{
+     display:inline-block;
+     text-decoration:none;
+     width: 40px;
+     margin: 40px;
+     margin-right:25px;
+     font-size:15px;
+     height:10px;
+     border:0;
+     text-align:center;
+     }/*Caracteristicas*/
+     
+     .menu li a img{margin-left:5px;
+    width: 15px;}/*Imagenes que contiene el menu*/
+     
+     .menu li a{color:black;}/*Links del menu*/
+     
+     .menu li :hover {
+     text-decoration:none;
+     background-color:blue;
+     }/*Animacion del menu*/
+     
+     .menu ul li a{border-radius:50%;}/*Borde del menu*/
